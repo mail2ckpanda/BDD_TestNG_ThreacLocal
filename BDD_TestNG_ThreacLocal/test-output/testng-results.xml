@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD with TestNG" duration-ms="73694" started-at="2023-05-12T23:57:51Z" finished-at="2023-05-12T23:59:05Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.SmokeTestRunner@5c96b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RegressionTestRunner@9d10bd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="RegressionTest" duration-ms="63418" started-at="2023-05-12T23:57:51Z" finished-at="2023-05-12T23:58:55Z">
+      <class name="Runner.RegressionTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.RegressionTestRunner@9d10bd]" name="setUpClass" is-config="true" duration-ms="970" started-at="2023-05-12T23:57:51Z" finished-at="2023-05-12T23:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RegressionTestRunner@9d10bd]" name="runScenario" duration-ms="39620" started-at="2023-05-12T23:57:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T23:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Home page title1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User registation and adding products to cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RegressionTestRunner@9d10bd]" name="runScenario" duration-ms="22008" started-at="2023-05-12T23:58:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T23:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Home page title2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User registation and adding products to cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.RegressionTestRunner@9d10bd]" name="tearDownClass" is-config="true" duration-ms="781" started-at="2023-05-12T23:58:54Z" finished-at="2023-05-12T23:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.RegressionTestRunner -->
+    </test> <!-- RegressionTest -->
+    <test name="SmokeTest" duration-ms="73694" started-at="2023-05-12T23:57:51Z" finished-at="2023-05-12T23:59:05Z">
+      <class name="Runner.SmokeTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.SmokeTestRunner@5c96b]" name="setUpClass" is-config="true" duration-ms="962" started-at="2023-05-12T23:57:51Z" finished-at="2023-05-12T23:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.SmokeTestRunner@5c96b]" name="runScenario" duration-ms="39571" started-at="2023-05-12T23:57:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T23:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Home page title2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User registation and adding products to cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.SmokeTestRunner@5c96b]" name="runScenario" duration-ms="22148" started-at="2023-05-12T23:58:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T23:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Home page title1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User registation and adding products to cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.SmokeTestRunner@5c96b]" name="runScenario" duration-ms="10907" started-at="2023-05-12T23:58:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T23:59:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Home page title2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User registation and adding products to cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.SmokeTestRunner@5c96b]" name="tearDownClass" is-config="true" duration-ms="57" started-at="2023-05-12T23:59:05Z" finished-at="2023-05-12T23:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.SmokeTestRunner -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- BDD with TestNG -->
+</testng-results>
